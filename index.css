@@ -26,7 +26,7 @@
   header{
       /* border: 1px solid red; */
       height: 100vh;
-      background-image: url("Images/hero-image.png");
+      background-image: url("Images/hero-image.svg");
       background-color: white;
       background-position: right top;
       background-repeat: no-repeat;
@@ -98,8 +98,9 @@
   }
 
   .hero-text h1{
-    width: 332px;
-    height: 84px;
+    /* border: 1px solid red; */
+    width: 432px;
+    line-height: 84px;
     font-weight: 700;
    
   }
@@ -210,13 +211,13 @@
 
 
     footer{
-        height: 40vh;
+        height: 30vh;
         width: 90%;
         margin: 0 auto;
         border-top: 3px solid rgba(38, 28, 82, 0.3);
         display: flex;
-        justify-content: space-around;
-        padding: 5% 0;
+        /* justify-content: space-around; */
+        /* padding: 2% 0; */
     }
 
     footer .general{
@@ -224,25 +225,54 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 20%;
-        height: 30vh;
+        width: 15%;
+        height: 25vh;
         padding: 2% 0%;
-        align-items: flex-start;
     }
 
+    .footer-logo .bottom{
+        /* border: 1px solid red; */
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .footer-logo .bottom p{
+        font-family: 'Alegreya', serif;
+        font-size: 2.0rem;
+    }
+
+
     footer .general p{
-        font-family: 'Oxygen', serif;
-        font-weight: 700;
-        font-size: 1.8rem;
-        line-height: 33px;
+        /* border: 1px solid red; */
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 45px;
+        /* padding-bottom: 45% 0; */
       }
 
       .general a{
+        /* border: 1px solid red; */
+        font-family: Oxygen;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 35px;
+        text-decoration: none;
+        padding: 2% 0;
+        color: black;
+      } 
+
+      .footer-logo h4{
+        /* border: 1px solid red; */
         font-family: Oxygen;
         font-weight: normal;
         font-size: 1.6rem;
         line-height: 23px;
-        text-decoration: none;
+        width: 75%;
         padding: 2% 0;
-        color: black;
+
       }
