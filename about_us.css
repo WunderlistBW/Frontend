@@ -88,9 +88,9 @@ section{
 }
 
 .texts{
-  width: 40%;
-  border: 1px solid red;
-  padding-left: 5%;
+  width: 50%;
+  /* border: 1px solid red; */
+  padding-left: 15%;
 }
 
 .texts h1{
@@ -98,7 +98,7 @@ section{
   width: 450px;
   margin: 15% 0 10%;
   line-height: 81px;
-  padding: 5% 0 5%;
+  padding: 8% 0 5%;
 }
 
 .texts span{
@@ -122,39 +122,59 @@ section{
 }
 
 .profiles{
-  border: 1px solid red;
-  display: flex;
-  width: 48%;
-  overflow: hidden;
+  width: 45%;
   position: relative;
-  
+  overflow: hidden; 
 }
 
-.profiles img{
-  /* border: 1px solid red; */
+
+.css-carousel{
+  display: flex;
+  width:4000%;
+  -webkit-animation: css-carousel 20s linear infinite;
+	-moz-animation: css-carousel 20s linear infinite;
+	-ms-animation: css-carousel 20s linear infinite;
+	animation: css-carousel 20s linear infinite;
+}
+/* .css-carousel img{
   width: 100%;
-  position: absolute;
-  animation: slideshow 5s infinite;
+  border: 1px solid red;
+} */
+
+
+.css-carousel img:not(:first-child){
+  float:left;
 }
 
-.profiles img:nth-last-child(){
-  animation-delay: 2s;
+@-webkit-keyframes css-carousel {
+  0%, 23% {margin-left:0}
+  25%, 48% { margin-left:-100%; }
+  50%, 73% { margin-left:-200%; }
+  75%, 98% { margin-left:-300%;}
+  100% { margin-left:0;}
+    
 }
-
-@keyframes slideshow {
-  0% {left: 0%;}
-  10% {left: 10%;}
-  20% {left: 25%;}
-  30% {left: 50%;}
-  40% {left: 75%;}
-  50% {left: 100%;}
-  60% {left: 75%;}
-  70% {left: 50%;}
-  80% {left: 25%;}
-  90% {left: 10%;}
-  100% {left: 0%;}
+@-moz-keyframes css-carousel {
+  0%, 23% {margin-left:0}
+  25%, 48% { margin-left:-100%; }
+  50%, 73% { margin-left:-200%; }
+  75%, 98% { margin-left:-300%;}
+  100% { margin-left:0;}
 }
-
+@-ms-keyframes css-carousel {
+  0%, 23% {margin-left:0}
+  25%, 48% { margin-left:-100%; }
+  50%, 73% { margin-left:-200%; }
+  75%, 98% { margin-left:-300%;}
+  100% { margin-left:0;}
+}
+@keyframes css-carousel {
+  0%, 23% {margin-left:0}
+  25%, 48% { margin-left:-100%; }
+  50%, 73% { margin-left:-200%; }
+  75%, 98% { margin-left:-300%;}
+  100% { margin-left:0;}
+}
 
 
 footer{
