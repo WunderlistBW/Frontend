@@ -3,10 +3,14 @@
     padding:0;
     margin:0;
     max-width:100%;
+
   }
 
   html{
       font-size: 62.5%;
+      width: 100%;
+      /* max-width: 1440px; */
+
   }
 
   h1{
@@ -25,16 +29,17 @@
 
   header{
       /* border: 1px solid red; */
-      height: 100vh;
+      /* height: 90vh; */
       background-image: url("Images/hero-image.svg");
       background-color: white;
       background-position: right top;
       background-repeat: no-repeat;
       background-size: 60%;
-      padding-bottom: 60%;
+      max-width: 100%;
   }
 
   .navigation-logo{
+      /* border: 1px solid red; */
       width: 90%;
       padding: 2% 0;
       margin: 0 auto;
@@ -62,7 +67,7 @@
 
   nav{
       /* border: 1px solid red; */
-      width: 53%;
+      width: 55%;
       padding: 8px 0;
       display: flex;
       justify-content: space-evenly;
@@ -117,24 +122,26 @@
     width: 450px;
     /* height: 120px; */
     font-size: 2.4rem;
-    line-height: 30px;
-    padding: 3% 0;
+    line-height: 34px;
+    margin: 7% 0 3%;
 
   }
 
-  button{
-    border: none;
+  .hero-text .button{
+
+    /* border: 1px solid red; */
     padding: 2%;
     width: 259px;
     height: 62px;
     background: #FFD33A;
     border-radius: 8px;
     font-family: Oxygen;
-    font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 2.4rem;
+    text-align: center;
+    text-decoration: none;
     color: #261C52;
+    margin: 3% 0;
     }
 
     .feature-list{
@@ -145,7 +152,8 @@
         justify-content: space-evenly;
         align-items: center;
         background: #261C52;
-        padding: 0 10%;
+        /* padding: 0 10%; */
+        margin: 5% 0 0;
     }
 
     .feature{
@@ -216,8 +224,6 @@
         margin: 0 auto;
         border-top: 3px solid rgba(38, 28, 82, 0.3);
         display: flex;
-        /* justify-content: space-around; */
-        /* padding: 2% 0; */
     }
 
     footer .general{
@@ -252,7 +258,6 @@
         font-weight: bold;
         font-size: 18px;
         line-height: 45px;
-        /* padding-bottom: 45% 0; */
       }
 
       .general a{
@@ -274,5 +279,25 @@
         line-height: 23px;
         width: 75%;
         padding: 2% 0;
+
+      }
+
+      @media(max-width: 1400px){
+          header{
+              background-size: 65%;
+          }
+          nav{
+              width: 60%;
+          }
+          .feature-list{
+              margin: 0;
+          }
+          footer .general{
+              /* border: 1px solid red; */
+              width: 20%;
+          }
+      }
+
+      @media(max-width: 1000px){
 
       }
