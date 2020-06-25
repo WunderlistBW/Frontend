@@ -57,7 +57,7 @@ body {
 	margin: 0 auto;
 }
 
-.home-page {
+.home-page-header {
 	height:	80vh;
 	width: 100%;
 	background-image: url(/Style/photo-of-laptop-beside-smartphone.jpg);
@@ -74,6 +74,7 @@ nav {
 
 h1 {
 	background-color: #DFFDFF;
+	font-family: 'Permanent Marker', cursive;
 	color: #D33F49;
 	font-size: 2.3rem;
 	font-weight: bold;
@@ -171,7 +172,7 @@ h1 {
 
 .featured p {
 	font-size: 1rem;
-	padding: .5rem .2rem;
+	padding: .5rem .5rem;
 	text-align: center;
 }
 
@@ -190,7 +191,7 @@ h1 {
 
 .lower-button-box{
 	display: flex;
-	width: 50%;
+	width: 30%;
 	justify-content: space-evenly;
 }
 
@@ -208,6 +209,7 @@ h1 {
 }
 
 #bottom-brand {
+	font-family: 'Permanent Marker', cursive;
 	font-size: 1.7rem;
 	font-weight: bold;
 	color: #D33F49;
@@ -239,14 +241,6 @@ footer {
 	padding: .5rem 2rem;
 	font-weight: lighter;
 }
-
-
-/* media query at 500px for mobile */
-
-
-
-
-
 
 /* -------------------------CONTACT PAGE STYLES BELOW------------------------------------------ */
 
@@ -298,3 +292,108 @@ footer {
 #inquiries a {
 	color: #D33F49;
 }
+
+/* END CONTACT PAGE STYLES */
+
+
+
+/* START MEDIA QUERY AT 800OPX ---------------------------------------*/
+
+@media(max-width: 800px) {
+	.top-nav-links {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-statement {
+		width: 525px;
+	}
+
+	.highlights {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+	}
+
+	.featured {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		padding-top: 1.5rem;
+	}
+
+	.featured p {
+		padding: .5rem .5rem;
+	}
+
+	.lower-button-box{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		align-items: center;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		height: 25vh;
+	}	
+}
+
+/* END MEDIA QUERY AT 800PX */
+
+/* START MEDIA QUERY AT 500PX ---------------------------------------*/
+
+@media(max-width: 500px) {
+	.top-nav-links {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-statement {
+		width: 450px;
+	}
+
+	.main-contact {
+		width: 450px;
+	}
+
+	.highlights {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+	}
+
+	.featured {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		padding-top: 1.5rem;
+	}
+
+	.lower-button-box{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		align-items: center;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		height: 25vh;
+	}	
+
+}
+
+
+
+
