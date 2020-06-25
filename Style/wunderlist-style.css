@@ -101,6 +101,11 @@ h1 {
 	padding: .5rem 2rem;
 }
 
+.top-nav-links a:hover {
+	font-size: 1.2rem;
+	color: #D33F49;
+}
+
 #header-home-link {
 	background-color: #5E6472;
 	color: #DFFDFF;
@@ -108,11 +113,19 @@ h1 {
 	border-bottom-left-radius: .5rem;
 }
 
+#header-home-link:hover {
+	background-color: #D33F49;
+}
+
 #header-sign-in-link {
 	background-color: #5E6472;
 	color: #DFFDFF;
 	border-top-left-radius: .5rem;
 	border-bottom-right-radius: .5rem;
+}
+
+#header-sign-in-link:hover {
+	background-color: #D33F49;
 }
 
 .statement-container {
@@ -208,6 +221,13 @@ h1 {
 	box-shadow: 5px 10px 8px #888888;
 }
 
+.lower-button:hover {
+	font-size: 1.5rem;
+	letter-spacing: .6rem;
+	color: black;
+	background-color: #D33F49;
+}
+
 #bottom-brand {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 1.7rem;
@@ -240,6 +260,11 @@ footer {
 	text-align: center;
 	padding: .5rem 2rem;
 	font-weight: lighter;
+}
+
+.footer-links a:hover {
+	letter-spacing: .5rem;
+	color: #D33F49;
 }
 
 /* -------------------------CONTACT PAGE STYLES BELOW------------------------------------------ */
