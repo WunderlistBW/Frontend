@@ -58,22 +58,34 @@ body {
 }
 
 header {
+	height:	80vh;
 	width: 100%;
+	background-image: url(/Style/photo-of-laptop-beside-smartphone.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+nav {
 	background-color: #99D3DF;
 	padding: 3rem 0;
 }
 
 h1 {
+	background-color: #99D3DF;
 	font-size: 2.3rem;
 	font-weight: bold;
 	margin: 0 auto;
 	text-align: center;
 }
 
-.top-nav {
+.top-nav-links {
 	display: flex;
 	width: 80%;
 	justify-content: space-between;
+	background-color: #99D3DF;
 	font-size: 1rem;
 	font-style: italic;
 	font-weight: lighter 200;
@@ -81,7 +93,7 @@ h1 {
 	padding: 1rem 4rem 0;
 }
 
-.top-nav a {
+.top-nav-links a {
 	text-decoration: none;
 	padding: .5rem 2rem;
 }
@@ -98,6 +110,15 @@ h1 {
 	border-bottom-right-radius: .5rem;
 }
 
+
+/* PARALLAX ATTEMPT */
+.parallax {
+	
+	height: 450px;
+
+}
+
+
 .highlights {
 	display: flex;
 	justify-content: center;
@@ -105,4 +126,15 @@ h1 {
 	flex-direction: row;
 	align-items: center;
 	margin: 0 auto;
+}
+
+.featured {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+
+.highlights img {
+	padding 2rem;
 }
