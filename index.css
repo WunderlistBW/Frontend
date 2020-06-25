@@ -10,7 +10,6 @@
       font-size: 62.5%;
       /* width: 100%; */
       /* max-width: 1440px; */
-
   }
 
   h1{
@@ -93,11 +92,20 @@
     color: black;
   }
 
+  nav a:hover{
+      border-bottom: 3px solid #FFD33A;
+  }
+
   nav a:last-of-type{
       /* border: 1px solid red; */
       padding: 2% 2%;
       background: #FFD33A;
       border-radius: 2px;
+  }
+
+  nav a:last-of-type:hover{
+      background: #EABA16;
+      border-bottom: none;
   }
 
   .toggle{
@@ -156,6 +164,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    }
+
+    .hero-text .button:hover{
+        background: #EABA16;
     }
 
     .feature-list{
@@ -235,7 +247,9 @@
         color: #A3CF4D;
         text-decoration: none;
     }
-
+    .text-button:hover{
+        color: #FFD33A;
+    }
 
     footer{
         height: 30vh;
@@ -514,8 +528,6 @@
             flex-direction: column;
         }
         .logo-menu{
-            /* border: 1px solid red; */
-            /* background-color: #D4D2DC; */
             display: flex;
             justify-content: space-between;
             width: 100%;
