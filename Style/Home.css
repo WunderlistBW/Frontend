@@ -22,7 +22,7 @@ time, mark, audio, video {
     box-sizing:border-box;
     max-width: 100%;
 
-    border: 1px solid grey; 
+    /* border: 1px solid grey;  */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -65,12 +65,11 @@ header {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 }
 
 nav {
 	background-color: #99D3DF;
-	padding: 3rem 0;
+	padding: 3rem 0 1.5rem 0;
 }
 
 h1 {
@@ -88,53 +87,143 @@ h1 {
 	background-color: #99D3DF;
 	font-size: 1rem;
 	font-style: italic;
-	font-weight: lighter 200;
 	margin: 0 auto;
 	padding: 1rem 4rem 0;
 }
 
 .top-nav-links a {
 	text-decoration: none;
+	font-weight: lighter;
 	padding: .5rem 2rem;
 }
 
 #header-home-link {
 	border: 1px solid red;
+	background-color: pink;
 	border-top-right-radius: .5rem;
 	border-bottom-left-radius: .5rem;
 }
 
 #header-sign-in-link {
 	border: 1px solid red;
+	background-color: pink;
 	border-top-left-radius: .5rem;
 	border-bottom-right-radius: .5rem;
 }
 
-
-/* PARALLAX ATTEMPT */
-.parallax {
-	
-	height: 450px;
-
+.statement-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
 }
+
+.main-statement {
+	text-align: center;
+	width: 50%;
+}
+
+#statement {
+	font-size: 1.7rem;
+	font-weight: bold;
+	letter-spacing: .2rem;
+	padding: 1rem;
+	border-bottom: 2px solid gray;
+}
+
+#sub-statement {
+	font-size: 1.3rem;
+	padding: 1rem;
+}
+
+/* END HEADER STYLES */
 
 
 .highlights {
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
 	width: 90%;
 	flex-direction: row;
-	align-items: center;
-	margin: 0 auto;
+	margin: 1rem auto;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
 }
 
 .featured {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
 	width: 30%;
+}
+
+.featured h3 {
+	font-size: 1.2rem;
+	letter-spacing: .1rem;
+}
+
+.featured p {
+	font-size: 1rem;
+	padding: .5rem .2rem;
+	text-align: center;
+}
+
+.featured img {
+	margin-bottom: .5rem;
 }
 
 .highlights img {
 	padding 2rem;
 }
+
+
+
+
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.lower-button-box{
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+}
+
+.lower-button {
+	margin: 1rem auto 0;
+	padding: .5rem 2rem;
+	border-radius: .3rem;
+}
+
+#bottom-brand {
+	font-size: 1.7rem;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+/* END FEATURES SECTION HERE */
+
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1rem;
+	background-color: #99D3DF;
+	height: 18vh;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-links a {
+	text-decoration: none;
+	text-align: center;
+	padding: .5rem 2rem;
+	font-weight: lighter;
+}
+
