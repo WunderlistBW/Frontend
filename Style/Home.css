@@ -68,12 +68,13 @@ header {
 }
 
 nav {
-	background-color: #99D3DF;
+	background-color: #DFFDFF;
 	padding: 3rem 0 1.5rem 0;
 }
 
 h1 {
-	background-color: #99D3DF;
+	background-color: #DFFDFF;
+	color: #D33F49;
 	font-size: 2.3rem;
 	font-weight: bold;
 	margin: 0 auto;
@@ -84,7 +85,7 @@ h1 {
 	display: flex;
 	width: 80%;
 	justify-content: space-between;
-	background-color: #99D3DF;
+	background-color: #DFFDFF;
 	font-size: 1rem;
 	font-style: italic;
 	margin: 0 auto;
@@ -92,21 +93,23 @@ h1 {
 }
 
 .top-nav-links a {
+	color: #5E6472;
+	letter-spacing: .1rem;
 	text-decoration: none;
 	font-weight: lighter;
 	padding: .5rem 2rem;
 }
 
 #header-home-link {
-	border: 1px solid red;
-	background-color: pink;
+	background-color: #5E6472;
+	color: #DFFDFF;
 	border-top-right-radius: .5rem;
 	border-bottom-left-radius: .5rem;
 }
 
 #header-sign-in-link {
-	border: 1px solid red;
-	background-color: pink;
+	background-color: #5E6472;
+	color: #DFFDFF;
 	border-top-left-radius: .5rem;
 	border-bottom-right-radius: .5rem;
 }
@@ -121,11 +124,13 @@ h1 {
 .main-statement {
 	text-align: center;
 	width: 50%;
+	background-color: #C2C2C2;
 }
 
 #statement {
 	font-size: 1.7rem;
 	font-weight: bold;
+	color: #D33F49;
 	letter-spacing: .2rem;
 	padding: 1rem;
 	border-bottom: 2px solid gray;
@@ -177,9 +182,6 @@ h1 {
 	padding 2rem;
 }
 
-
-
-
 .button-container {
 	display: flex;
 	justify-content: center;
@@ -195,11 +197,19 @@ h1 {
 	margin: 1rem auto 0;
 	padding: .5rem 2rem;
 	border-radius: .3rem;
+	background-color: #90BEDE;
+	font-family: 'Livvic', sans-serif;
+	letter-spacing: .2rem;
+	font-size: 1rem;
+	color: #297373;
+	font-weight: bold;
+	box-shadow: 5px 10px 8px #888888;
 }
 
 #bottom-brand {
 	font-size: 1.7rem;
 	font-weight: bold;
+	color: #D33F49;
 	text-align: center;
 	padding-top: 2rem;
 }
@@ -211,7 +221,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	font-size: 1rem;
-	background-color: #99D3DF;
+	background-color: #DFFDFF;
 	height: 18vh;
 }
 
@@ -221,7 +231,9 @@ footer {
 }
 
 .footer-links a {
+	color: #5E6472;
 	text-decoration: none;
+	letter-spacing: .1rem;
 	text-align: center;
 	padding: .5rem 2rem;
 	font-weight: lighter;
