@@ -293,8 +293,18 @@ footer {
 	color: #D33F49;
 }
 
-/* END CONTACT PAGE STYLES */
+#got-here h2 {
+	text-align: right;
+	font-size: 1.5rem;
+	padding-bottom: .5rem;
+	font-weight: bold;
+}
 
+#got-here p {
+	text-align: right;
+}
+
+/* END CONTACT PAGE STYLES */
 
 
 /* START MEDIA QUERY AT 800OPX ---------------------------------------*/
