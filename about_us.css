@@ -88,6 +88,7 @@ nav a:last-of-type{
 nav a:last-of-type:hover{
   background: #EABA16;
   border-bottom: none;
+  color: white;
 }
 
 section{
@@ -328,6 +329,18 @@ footer .general p{
   section{
     flex-direction: column;
   }
+  .navigation-logo{
+    width: 100%;
+    
+    flex-direction: column;
+  }
+  nav{
+    width: 100%;
+  }
+  .logo{
+    width: 30%;
+    padding-left: 5%;
+  }
   .texts{
     width: 100%;
   }
@@ -366,6 +379,13 @@ footer .general p{
 }
 
 @media(max-width: 375px){
+  .logo{
+    width: 40%;
+  }
+  nav a{
+    font-size: 1.2rem;
+    width: 18%;
+  }
   footer .general{
     height: 20vh;
   }

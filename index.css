@@ -106,10 +106,7 @@
   nav a:last-of-type:hover{
       background: #EABA16;
       border-bottom: none;
-  }
-
-  .toggle{
-      display: none;
+      color: white;
   }
 
   .hero-text{
@@ -168,6 +165,7 @@
 
     .hero-text .button:hover{
         background: #EABA16;
+        color: white;
     }
 
     .feature-list{
@@ -536,21 +534,7 @@
             width: 26%;
         }
         nav{
-            flex-direction: column;
             width: 100%;
-            height: 50vh;
-            display: none;
-        }
-        .toggle {
-            display: block;
-            width: 40%;
-            padding: 10px 40px;
-            text-align: right;
-            color: #261C52;
-            font-size: 30px;
-          }
-        .active {
-          display: block;
         }
         .hero-text{
             width: 100%;
@@ -616,6 +600,15 @@
     }
 
     @media(max-width: 375px){
+        header{
+            height: 55vh;
+        }
+        .hero-text{
+            height: 40vh;
+        }
+        nav a{
+            font-size: 1.2rem;
+        }
         .hero-text{
             width: 90%;
         }
