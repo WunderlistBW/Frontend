@@ -204,7 +204,7 @@ h1 {
 
 .lower-button-box{
 	display: flex;
-	width: 30%;
+	width: 50%;
 	justify-content: space-evenly;
 }
 
