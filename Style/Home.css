@@ -51,5 +51,58 @@ table {
 
 /* --------------------STYLING BEGINS HERE----------------------- */
 
+body {
+	font-family: 'Livvic', sans-serif;
+	font-size: 62.5%;
+	margin: 0 auto;
+}
 
+header {
+	width: 100%;
+	background-color: #99D3DF;
+	padding: 3rem 0;
+}
 
+h1 {
+	font-size: 2.3rem;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.top-nav {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: lighter 200;
+	margin: 0 auto;
+	padding: 1rem 4rem 0;
+}
+
+.top-nav a {
+	text-decoration: none;
+	padding: .5rem 2rem;
+}
+
+#header-home-link {
+	border: 1px solid red;
+	border-top-right-radius: .5rem;
+	border-bottom-left-radius: .5rem;
+}
+
+#header-sign-in-link {
+	border: 1px solid red;
+	border-top-left-radius: .5rem;
+	border-bottom-right-radius: .5rem;
+}
+
+.highlights {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 auto;
+}
