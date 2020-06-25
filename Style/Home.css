@@ -57,7 +57,7 @@ body {
 	margin: 0 auto;
 }
 
-header {
+.home-page {
 	height:	80vh;
 	width: 100%;
 	background-image: url(/Style/photo-of-laptop-beside-smartphone.jpg);
@@ -124,7 +124,7 @@ h1 {
 .main-statement {
 	text-align: center;
 	width: 600px;
-	background-color: #C2C2C2;
+	background-color: black;
 }
 
 #statement {
@@ -139,6 +139,7 @@ h1 {
 #sub-statement {
 	font-size: 1.3rem;
 	padding: 1rem;
+	color: white;
 }
 
 /* END HEADER STYLES */
@@ -242,3 +243,58 @@ footer {
 
 /* media query at 500px for mobile */
 
+
+
+
+
+
+/* -------------------------CONTACT PAGE STYLES BELOW------------------------------------------ */
+
+.contact-page-header {
+	height:	80vh;
+	width: 100%;
+}
+
+.contact-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+
+.main-contact {
+	text-align: left;
+	width: 700px;
+	background-color: white;
+}
+
+#support {
+	font-size: 1.2rem;
+	padding: 1rem;
+	border-bottom: 1px solid gray;
+}
+
+#support h2 {
+	font-size: 1.5rem;
+	padding-bottom: .5rem;
+	font-weight: bold;
+}
+
+#support-center {
+	color: #D33F49;
+}
+
+#inquiries {
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+
+#inquiries h2 {
+	font-size: 1.5rem;
+	padding-bottom: .5rem;
+	font-weight: bold;
+}
+
+#inquiries a {
+	color: #D33F49;
+}
