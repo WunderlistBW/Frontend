@@ -1,0 +1,635 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+
+  }
+
+  html{
+      font-size: 62.5%;
+      /* width: 100%; */
+      /* max-width: 1440px; */
+  }
+
+  h1{
+      font-size: 6.8rem;
+      font-family: 'Oxygen', sans-serif;
+  }
+
+  h2{
+      font-size: 4.8rem;
+      font-family: 'Oxygen', sans-serif;
+  }
+
+  p{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  header{
+      /* border: 1px solid red; */
+      height: 100vh;
+      background-image: url("Images/hero-image.svg");
+      background-color: white;
+      background-position: right top;
+      background-repeat: no-repeat;
+      background-size: 60%;
+      /* max-width: 100%; */
+  }
+
+  .navigation-logo{
+      /* border: 1px solid red; */
+      width: 90%;
+      padding: 2% 0;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      /* padding-right: 15%; */
+  }
+
+  .logo-menu{
+      /* border: 1px solid red; */
+      width: 15%;
+      display: flex;
+
+  }
+
+  .logo{
+      /* border: 1px solid red; */
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+
+  .logo h2{
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 44px;
+  }
+  
+
+  nav{
+      /* border: 1px solid red; */
+      width: 55%;
+      padding: 8px 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  nav a{
+    /* border: 1px solid red; */
+    font-family: Oxygen;
+    font-size: 1.8rem;
+    line-height: 23px;
+    text-decoration: none;
+    text-align: center;
+    width: 15%;
+    color: black;
+  }
+
+  nav a:hover{
+      border-bottom: 3px solid #FFD33A;
+  }
+
+  nav a:last-of-type{
+      /* border: 1px solid red; */
+      padding: 2% 2%;
+      background: #FFD33A;
+      border-radius: 2px;
+  }
+
+  nav a:last-of-type:hover{
+      background: #EABA16;
+      border-bottom: none;
+      color: white;
+  }
+
+  .hero-text{
+      /* border: 1px solid red; */
+      width: 40%;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 5%;
+  }
+
+  .hero-text h1{
+    /* border: 1px solid red; */
+    width: 432px;
+    line-height: 84px;
+    font-weight: 700;
+   
+  }
+
+  .hero-text h2{
+    font-size: 4.8rem;
+    font-weight: normal;
+    height: 60px;
+    color: #A3CF4D;
+  }
+
+  .hero-text p{
+    /* border: 1px solid red; */
+    width: 450px;
+    /* height: 120px; */
+    font-size: 2.4rem;
+    line-height: 34px;
+    margin: 7% 0 3%;
+
+  }
+
+  .hero-text .button{
+
+    /* border: 1px solid red; */
+    padding: 2%;
+    width: 259px;
+    height: 62px;
+    background: #FFD33A;
+    border-radius: 8px;
+    font-family: Oxygen;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: #261C52;
+    margin: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .hero-text .button:hover{
+        background: #EABA16;
+        color: white;
+    }
+
+    .feature-list{
+        /* border: 1px solid red; */
+        height: 55vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #261C52;
+        /* padding: 0 10%; */
+        margin: 5% 0 0;
+    }
+
+    .feature{
+        /* border: 1px solid red; */
+        width: 329px;
+        height: 352px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: #FFFEFE;
+        border-radius: 8px;
+        padding: 2%;
+    }
+
+    .feature h3{
+        /* padding: 2%; */
+        /* width: 180px; */
+        height: 30px;
+        font-family: Oxygen;
+        font-weight: bold;
+        font-size: 2.4rem;
+        line-height: 30px;
+    }
+
+    .feature p{
+        width: 265px;
+        height: 69px;
+        font-size: 1.8rem;
+        line-height: 23px;
+        /* padding: 2%; */
+    }
+
+    .feature-detail{
+        /* border: 1px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detail-information{
+        /* border: 1px solid red; */
+        width: 30%;
+    }
+
+    .detail-information h2{
+        /* width: 541px; */
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 61px;
+        color:black;
+        padding: 2% 0;
+    }
+
+    .detail-information p{
+        /* width: 444px; */
+        font-weight: normal;
+        font-size: 2.4rem;
+        line-height: 30px;
+        color:black;
+        padding: 2% 0;
+    }
+
+    .text-button{
+        color: #A3CF4D;
+        text-decoration: none;
+    }
+    .text-button:hover{
+        color: #FFD33A;
+    }
+
+    footer{
+        height: 30vh;
+        width: 90%;
+        margin: 0 auto;
+        border-top: 3px solid rgba(38, 28, 82, 0.3);
+        display: flex;
+    }
+
+    footer .general{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 15%;
+        height: 25vh;
+        padding: 2% 0%;
+    }
+
+    .footer-logo .bottom{
+        /* border: 1px solid red; */
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .footer-logo .bottom p{
+        font-family: 'Alegreya', serif;
+        font-size: 2.0rem;
+    }
+
+
+    footer .general p{
+        /* border: 1px solid red; */
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.8rem;
+        line-height: 45px;
+      }
+
+      .general a{
+        /* border: 1px solid red; */
+        font-family: Oxygen;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 35px;
+        text-decoration: none;
+        padding: 2% 0;
+        color: black;
+      } 
+
+      .footer-logo h4{
+        /* border: 1px solid red; */
+        font-family: Oxygen;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 23px;
+        width: 75%;
+        padding: 2% 0;
+
+      }
+
+      @media screen and (max-width: 1400px){
+          header{
+              background-size: 65%;
+          }
+          .logo-menu{
+              width: 20%;
+          }
+          nav{
+              width: 60%;
+          }
+          .feature-list{
+              margin: 0;
+          }
+          footer .general{
+              width: 20%;
+          }
+      }
+
+      @media screen and (max-width: 1200px){
+        header{
+            height: 90vh;
+        }
+
+        .navigation-logo{
+            width: 100%;
+        }
+        .logo{
+            margin-left: 5%;
+        }
+        .logo img{
+            width: 30%;
+        }
+        .logo h2{
+            font-size: 2.4rem;
+        }
+        nav a{
+            font-size: 1.6rem;
+        }
+        .feature-detail img{
+            width: 50%;
+        }
+        .detail-information{
+            width: 40%;
+        }
+        .detail-information h2{
+            font-size: 4.4rem;
+        }
+        .detail-information p{
+            font-size: 2.2rem;
+        }
+      }
+
+    @media screen and (max-width: 1000px){
+        header{
+            height: 75vh;
+        }
+        .logo-menu{
+            padding-left: 3%;
+        }
+        nav a:first-of-type{
+            width: 20%;
+        }
+        nav a:last-of-type{
+            width: 15%;
+            padding: 1% 1%;
+        }
+        .hero-text{
+        height: 65vh;
+        padding-left: 3%;
+        }
+        .hero-text h1{
+            font-size: 4.0rem;
+            line-height: 60px;
+        }
+        .hero-text h2{
+            font-size: 3.8rem;
+            line-height: 45px;
+        }
+        .hero-text p{
+            font-size: 2.0rem;
+            width: 400px;
+            margin: 2% 0 1%;
+            line-height: 28px;
+        }
+        .hero-text .button{
+            width: 180px;
+            height: 50px;
+            font-size: 1.8rem;
+        }
+        .feature{
+            width: 280px;
+            height: 300px;
+        }
+        .feature h3{
+            font-size: 2.0rem;
+        }
+        .feature p{
+            font-size: 1.6rem;
+        }
+        .feature img{
+            width: 30%;
+        }
+        .detail-information h2{
+        font-size: 4.0rem;
+        }
+        .detail-information p{
+            font-size: 2.0rem;
+        }
+        .footer-logo .bottom{
+            width: 75%;
+        }
+        .footer-logo h4{
+            font-size: 1.4rem;
+        }
+        footer .general p{
+            font-size: 1.4rem;
+        }
+        .general a{
+            font-size: 1.2rem;
+            line-height: 20px;
+        }
+      }
+
+      @media screen and (max-width: 800px){
+        header{
+              height: 60vh;
+        }
+        .logo h2{
+            font-size: 1.8rem;
+        }
+        nav a{
+            font-size: 1.4rem;
+        }
+        .hero-text{
+            height: 48vh;
+        }
+        .hero-text h1{
+            font-size: 3.4rem;
+            height: 50px;
+        }
+        .hero-text h2{
+            font-size: 3.0rem;
+            height: 40px;
+        }
+        .hero-text p{
+            font-size: 1.8rem;
+            line-height: 24px;
+            margin: 5% 0 1%;
+        }
+        .hero-text .button{
+            width: 150px;
+            height: 40px;
+            font-size: 1.4rem;
+        }
+        .feature-list{
+            height: 40vh;
+            flex-direction: row;
+        }
+        .feature{
+            /* border: 1px solid red; */
+            width: 250px;
+            height: 245px;
+            padding: 0 1% 2%;
+        }
+        .feature h3{
+            font-size: 1.8rem;
+            /* padding: 5% 0; */
+        }
+        .feature p{
+            font-size: 1.5rem;
+            padding: 0 0 3% 3%;
+        }
+        .feature-detail img{
+            width: 40%;
+        }
+        .detail-information h2{
+            font-size: 2.8rem;
+            line-height: 35px;
+        }
+        .detail-information p{
+            font-size: 1.6rem;
+            line-height: 25px;
+        }
+        footer{
+            border-top: 1px solid rgba(38, 28, 82, 0.3);
+        }
+        .footer-logo .bottom p{
+            font-size: 1.4rem;
+            /* border: 1px solid red; */
+        }
+        .footer-logo h4{
+            font-size: 1.2rem;
+        }
+        footer .general p{
+            font-size: 1.2rem;
+        }
+        .general a{
+            font-size: 1.0rem;
+            line-height: 20px;
+        }
+        footer .general:nth-child(2){
+            width: 15%;
+        }
+      }
+
+      @media screen and (max-width: 500px){
+        header{
+            background-image: none;
+        }
+        .navigation-logo{
+            flex-direction: column;
+        }
+        .logo-menu{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .logo{
+            width: 26%;
+        }
+        nav{
+            width: 100%;
+        }
+        .hero-text{
+            width: 100%;
+            padding-left: 8%;
+        }
+        .feature-list{
+            /* border: 1px solid red; */
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .feature{
+            width: 80%;
+        }
+        .feature img{
+            width: 15%;
+        }
+        .feature p{
+            font-size: 1.6rem;
+        }
+        .feature-detail{
+            margin: 2% 0;
+        }
+        .detail-information{
+            /* border:1px solid red; */
+            width: 50%;
+            margin-top: 5%;
+        }
+        .detail-information h2{
+            font-size: 2.4rem;
+            line-height: 30px;
+        }
+
+        .detail-information p{
+            font-size: 1.6rem;
+            line-height: 20px;
+        }
+        footer{
+            width: 100%;
+        }
+        footer .general {
+            width: 30%;
+            margin: 0 auto;
+            margin: 0 2%;
+        }
+        .footer-logo .bottom p{
+            font-size: 1.4rem;
+            
+        }
+        .footer-logo h4{
+            font-size: 1.0rem;
+        }
+        footer .general p{
+            font-size: 1.0rem;
+        }
+        .general a{
+            font-size: .8rem;
+            line-height: 20px;
+        }
+        footer .general:nth-child(2){
+            width: 15%;
+        }
+    }
+
+    @media(max-width: 375px){
+        header{
+            height: 55vh;
+        }
+        .hero-text{
+            height: 40vh;
+        }
+        nav a{
+            font-size: 1.2rem;
+        }
+        .hero-text{
+            width: 90%;
+        }
+        .detail-information h2{
+            font-size: 2.0rem;
+        }
+        .detail-information p{
+            font-size: 1.4rem;
+        }
+        .footer-logo .bottom p{
+            font-size: 1.2rem;}
+
+        .footer-logo h4{
+            font-size: .8rem;
+        }
+        footer .general p{
+            font-size: .8rem;
+        }
+        .general a{
+            font-size: .6rem;
+            line-height: 20px;
+        }
+    }
+        
